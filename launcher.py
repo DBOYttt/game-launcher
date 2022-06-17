@@ -8,7 +8,9 @@ from ursina import *
 app = Ursina()
 
 
-line_1 = Entity(model = 'cube', color = rgb(79, 70, 70), position = (-5,0), scale = (0.05, 8, 0), )
+line_1 = Entity(model = 'cube', color = rgb(79, 70, 70), position = (-4.85,0), scale = (0.05, 8, 0), )
+
+Button_1 = Button(text = 'Game 1', scale = (0.3,0.1), position = (-0.74,0,0))
 
 window.color = rgb(47, 45, 45)
 window.fps_counter.enabled = False
